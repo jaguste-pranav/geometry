@@ -43,9 +43,15 @@ namespace geometry
             {
                 Console.WriteLine("The lines are of equal distance");
             }
-            else
+
+            if (distanceForLine1 > distanceForLine2)
             {
-                Console.WriteLine("The lines are not of equal distance");
+                Console.WriteLine("The line 1 is larger than line 2");
+            }
+
+            if (distanceForLine1 < distanceForLine2)
+            {
+                Console.WriteLine("The line 2 is larger than line 1");
             }
         }
     }
