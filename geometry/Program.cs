@@ -7,6 +7,7 @@ namespace geometry
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Test Push");
             Points point_1 = new Points();
             Points point_2 = new Points();
 
